@@ -169,7 +169,7 @@ def helptext(bot, update):
 
 
 def main():
-    updater = Updater('1212793240:AAHxluZmbK0iTcdxu8BlldDnVo86-PUSqEE')
+    updater = Updater('')
     dp = updater.dispatcher
     dp.add_handler(PrefixHandler(['!', '#', '.', '/'], 'co_confirmed', co_confirmed))
     dp.add_handler(PrefixHandler(['!', '#', '.', '/'], 'mx_confirmed', mx_confirmed))
